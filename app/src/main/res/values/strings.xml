@@ -1,0 +1,37 @@
+<resources>
+    //strings of main activity
+    <string name="app_name">Assignment2</string>
+    <string name="Assignment2">Assignment2</string>
+
+
+    //strings of login_screen
+    <string name="tv_login_screen">Login in to your account</string>
+    <string name="ed_hint_email">Email</string>
+    <string name="ed_hint_password">Password</string>
+    <string name="btn_login_screen">Log in</string>
+    <string name="tv_no_account_register">Do not have account?</string>
+    <string name="tv_link_register_page">REGISTER</string>
+
+
+     //strings of registeration_screen
+
+    <string name="tv_register_page_heading1">Welcome,</string>
+    <string name="tv_register_page_heading2">Please provide your basic information</string>
+    <string name="ed_register_name">Full Name</string>
+    <string name="ed_register_gender">Gender</string>
+    <string name="ed_register_dob">Date of Birth</string>
+    <string name="ed_register_usertype">User Type</string>
+    <string name="ed_register_occupation">Occupation</string>
+    <string name="tv_register_sign_up_again">Sign up with different account?</string>
+    <string name="button_register">Continue</string>
+
+
+   //strings of otp_screen
+    <string name="otp_heading1">OTP Verification</string>
+    <string name="otp_heading2">Enter the verification code sent to your number via sms.</string>
+    <string name="button_resend">RESEND</string>
+    <string name="button_submit">SUBMIT</string>
+    <string name="register_alpha_validation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+
+
+</resources>

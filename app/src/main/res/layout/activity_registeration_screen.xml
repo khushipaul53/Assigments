@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/small_padding_top"
+    android:layout_marginBottom="@dimen/xsmall_margin_bottom"
+    tools:context=".Registeration_screen">
+
+
+
+<ImageView
+    android:id="@+id/register_back"
+    android:layout_width="@dimen/normal"
+    android:layout_height="@dimen/normal"
+    android:src="@drawable/back"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_register_page_heading1"
+        android:textSize="@dimen/ts_normal"
+        android:layout_marginLeft="@dimen/small_margin_left"
+        android:textColor="@color/color_register_text"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/small_margin_top"
+        android:text="@string/tv_register_page_heading2"
+        android:textSize="@dimen/ts_small"
+        android:layout_marginLeft="@dimen/small_margin_left"
+        android:textColor="@color/color_register_text"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="@dimen/xlarge"
+        android:layout_height="@dimen/xlarge"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/small_padding_top"
+        android:src="@drawable/user"        />
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/normal"
+        android:layout_marginLeft="@dimen/small_margin_left"
+        android:singleLine="true"
+        android:digits="@string/register_alpha_validation"
+
+        android:imeOptions="actionNext"
+        android:hint="@string/ed_register_name"/>
+    <EditText
+        android:id="@+id/register_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/normal"
+        android:layout_marginLeft="@dimen/small_margin_left"
+        android:digits="@string/register_alpha_validation"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:hint="@string/ed_register_gender"/>
+
+    <EditText
+        android:id="@+id/register_usertype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/normal"
+        android:inputType="text"
+        android:layout_marginLeft="@dimen/small_margin_left"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:digits="@string/register_alpha_validation"
+        android:hint="@string/ed_register_usertype"/>
+    <EditText
+        android:id="@+id/register_occupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/normal"
+        android:imeOptions="actionDone"
+        android:digits="@string/register_alpha_validation"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_marginLeft="@dimen/small_margin_left"
+        android:hint="@string/ed_register_occupation"/>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/tv_onclick_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text="@string/tv_register_sign_up_again"
+            android:layout_above="@id/button_otp"
+            android:textColor="@color/color_register_signup_text"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/button_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+            android:text="@string/button_register"
+            android:textColor="@color/color_register_signup_text"
+            android:background="@drawable/registerbutton"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

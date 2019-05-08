@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    //colors of main activity
+    <color name="colorMainActivity">#082c3b</color>
+    <color name="colorMain_text">#ffffff</color>
+
+    //colors of login screen
+
+    <color name="color_login_button_text">#ffffff</color>
+  <color name="color_login_button_background">#082c3b</color>
+    <color name="color_login_registerbutton_text">#082c3b</color>
+
+
+//colors of registeration screen
+
+    <color name="color_register_text">#000000</color>
+    <color name="color_register_signup_text">#082c3b</color>
+    <color name="color_register_button_continue">#00000000</color>
+
+    //colors of otp screen
+
+    <color name="color_otp_text">#000000</color>
+    <color name="color_otp_submitbutton_background">#082c3b</color>
+    <color name="color_otp_submitbutton_text">#ffffff</color>
+    <color name="color_otp_resendtext">#082c3b</color>
+    <color name="color_otp_resendtext_background">#ffffff</color>
+
+</resources>

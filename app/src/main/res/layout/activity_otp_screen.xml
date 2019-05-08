@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/xlarge"
+    android:layout_marginLeft="@dimen/small_margin_left"
+    android:layout_marginRight="@dimen/small_margin_right"
+    tools:context=".otp_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_heading1"
+        android:textSize="@dimen/ts_normal"
+        android:textColor="@color/color_otp_text"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_heading2"
+        android:textSize="@dimen/ts_small"
+        android:textColor="@color/color_otp_text"
+
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ed_otp">
+
+        <EditText
+            android:id="@+id/ed_otp_1"
+            android:layout_width="@dimen/ed_otp"
+            android:layout_height="wrap_content"
+            android:maxLength="1"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/ed_otp_2"
+            android:layout_width="@dimen/ed_otp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_margin_left"
+            android:maxLength="1"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+        <EditText
+            android:id="@+id/ed_otp_3"
+            android:layout_width="@dimen/ed_otp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_margin_left"
+            android:maxLength="1"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+
+            />
+        <EditText
+            android:id="@+id/ed_otp_4"
+            android:layout_width="@dimen/ed_otp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_margin_left"
+            android:maxLength="1"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin_top">
+
+
+        <Button
+            android:id="@+id/btn_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_resend"
+            android:textStyle="bold"
+            android:textColor="@color/color_otp_resendtext"
+            android:layout_weight="1"
+            android:background="@drawable/resend_otp_button"
+            android:layout_marginRight="@dimen/small_margin_right"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_submit"
+            android:layout_weight="1"
+            android:textColor="@color/color_otp_submitbutton_text"
+            android:layout_marginLeft="@dimen/small_margin_left"
+            android:background="@drawable/button_submit_otp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
