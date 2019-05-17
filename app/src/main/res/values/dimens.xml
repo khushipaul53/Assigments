@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //splash screen dimensions
+    <dimen name="tv_textsize_splash">30sp</dimen>
+
+
+    <dimen name="margin">40dp</dimen>
+    <dimen name="margin_small">30dp</dimen>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+
+        android:id="@+id/tv_name_studentList"
+        style="@style/style_text_studentList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/tv_name_studentList"
+        />
+
+    <TextView
+        android:id="@+id/tv_rollNo_studentList"
+        style="@style/style_text_studentList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/tv_rollNo_studentList"
+        />
+
+    <TextView
+        android:id="@+id/tv_class_studentList"
+        style="@style/style_text_studentList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_class_studentList"
+        />
+
+
+</LinearLayout>

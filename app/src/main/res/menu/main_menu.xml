@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <item
+        android:id="@+id/action_listorgrid"
+        android:title="LIstORgrid"
+        android:icon="@drawable/gridlist"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/id_btn_sortName_studentList"
+
+        android:title="@string/btn_menu_studentList1"
+        style="style_btn_menu_studentList"
+
+        />
+
+    <item
+        android:id="@+id/id_btn_sortId_studentList"
+        android:title="@string/btn_menu_studentList2"
+        style="style_btn_menu_studentList"
+
+        />
+
+</menu>

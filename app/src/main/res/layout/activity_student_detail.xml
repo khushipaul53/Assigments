@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:layout_gravity="center"
+    android:gravity=""
+    android:orientation="vertical"
+    tools:context=".StudentDetailActivity">
+
+
+    <EditText
+        android:id="@+id/et_name_studentDetails"
+        style="style_et_studentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="@string/validation_etAlpha_studentDetails"
+        android:hint="@string/et_hint_name_studentDetails"/>
+
+    <EditText
+        android:id="@+id/et_rollno_studentDetails"
+        style="style_et_studentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="@string/validation_etNum_studentDetails"
+        android:hint="@string/et_hint_rollNo_studentDetails"/>
+
+    <EditText
+        android:id="@+id/et_class_studentDetails"
+        style="style_et_studentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="@string/validation_etNum_studentDetails"
+        android:hint="@string/et_hint_class_studentDetails"/>
+
+
+    <Button
+        android:id="@+id/btn_submit_studentDetails"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_submit_studentDetails"/>
+
+</LinearLayout>

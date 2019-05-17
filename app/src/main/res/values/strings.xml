@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    //strings of main screen
+    <string name="tv_text_splash">Assignment3</string>
+    <integer name="timerSplash">3000</integer>
+
+
+    <string name="tv_name_studentList">Name</string>
+    <string name="tv_rollNo_studentList">RollNo</string>
+    <string name="tv_class_studentList">Class</string>
+
+
+    <string name="btn_menu_studentList1">Sort By Name</string>
+    <string name="btn_menu_studentList2">Sort By RollNo</string>
+
+    <string name="btn_addStudent_studentList">Add Student</string>
+
+
+    <string name="et_hint_name_studentDetails">Name</string>
+    <string name="et_hint_rollNo_studentDetails">RollNo</string>
+    <string name="et_hint_class_studentDetails">Class</string>
+
+    <string name="btn_submit_studentDetails">Submit</string>
+    <string name="tv_Nodata_studentList">No Data Found</string>
+
+
+    <string name="Alert_options">OPTIONS</string>
+    <string name="Alert_delete">DELETE</string>
+
+    <string name="ALert_update">UPDATE</string>
+    <string name="Alert_view">VIEW</string>
+
+
+    <string name="validation_etAlpha_studentDetails">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefgjijklmnopqrstuvwxyz</string>
+    <string name="validation_etNum_studentDetails">1234567890</string>
+
+
+    <string name="helperClass_toastName">Please Enter name</string>
+    <string name="helperClass_toastRoll">Please Enter RollNo</string>
+    <string name="helperClass_toastClass">Please Enter CLass</string>
+
+    <string name="name">Name</string>
+    <string name="rollNO">RollNo</string>
+    <string name="Class">Class</string>
+
+
+</resources>
