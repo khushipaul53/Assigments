@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B7D03</color>
+    <color name="colorPrimaryDark">#1B7D03</color>
+    <color name="colorAccent">#1B7D03</color>
+
+
+    //splash screen colors
+
+
+    <color name="color_btn_studentDetails">#000000</color>
+</resources>
