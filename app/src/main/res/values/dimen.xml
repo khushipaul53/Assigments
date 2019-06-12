@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_margin">2dp</dimen>
+    <dimen name="item_radius">11dp</dimen>
+    <dimen name="btn_radius">100dp</dimen>
+
+
+    <dimen name="marginbutton">20dp</dimen>
+    <dimen name="textsize_medium">20sp</dimen>
+    <dimen name="textsize_small">17sp</dimen>
+
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_dp4">4dp</dimen>
+    <dimen name="margin_dp17">17dp</dimen>
+
+</resources>
