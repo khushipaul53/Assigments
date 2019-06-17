@@ -39,8 +39,6 @@ public class DatabaseClass extends SQLiteOpenHelper {
                 "(" + COL_1_STUDENT_ROLL + " BLOB PRIMARY KEY, "
                 + COL_2_STUDENT_NAME + " BLOB , "+ COL_3_STUDENT_CLASS + ");" +
                 "";
-
-
         db.execSQL(queryCreateDb);
 
 
@@ -59,7 +57,7 @@ public class DatabaseClass extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(COL_2_STUDENT_NAME, student.getName());
         values.put(COL_1_STUDENT_ROLL, student.getRollno());
-        values.put(COL_1_STUDENT_ROLL, student.getmStandard());
+        values.put(COL_3_STUDENT_CLASS, student.getmStandard());
         db.insert(STUDENT_TABLE, null, values);
         success = true;
         db.close();
